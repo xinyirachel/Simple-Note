@@ -1,4 +1,12 @@
 
+### Simple Note
+
+- [Link to website](https://rachel-simple-note.netlify.app)
+
+- [Link to Repo](https://github.com/xinyirachel/Simple-Note)
+
+![Index](/docs/index.png)
+
 ### About this app
 
 A note-taking app similar to Google Keep. It created in React.js using React Hooks, state, props, and array mapping. 
