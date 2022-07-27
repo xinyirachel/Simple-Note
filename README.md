@@ -20,5 +20,9 @@ JavaScript
 React
 Material UI
 
+### Future Development
+Local storage for the note you take
+Night Mode
+
 
 
