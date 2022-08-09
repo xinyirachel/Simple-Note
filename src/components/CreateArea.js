@@ -1,8 +1,9 @@
 import React from "react";
+import { useState } from "react";
 
 function CreateArea(props) {
 
-  const [note, setNote] = React.useState({
+  const [note, setNote] = useState({
     title:"",
     content:""
 
@@ -12,7 +13,7 @@ function CreateArea(props) {
     const {name,value} = event.target;
 
     setNote(prevNote => {
-       return {
+       return { 
         ...prevNote,
         [name]: value
        } 
@@ -33,15 +34,16 @@ function CreateArea(props) {
 
   return (
     <div>
-      <form>
-        <input name="title" onChange={handleChange} value={note.title} placeholder="Title" />
-        <textarea 
+      <form className="form">
+        <input className="form-input" name="title" onChange={handleChange} value={note.title} placeholder="Title" />
+        <textarea
+            className="form-textarea" 
             name="content" onChange={handleChange}
             value={note.content} 
             placeholder="Take a note..." 
             rows="3" 
         />
-        <button onClick={submitNote}>Add Note</button>
+        <button className="form-button" onClick={submitNote}>Add Note</button>
       </form>
     </div>
   );
