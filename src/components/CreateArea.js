@@ -40,7 +40,7 @@ function CreateArea(props) {
             className="form-textarea" 
             name="content" onChange={handleChange}
             value={note.content} 
-            placeholder="Take a note and download it as PDF here." 
+            placeholder="Take a note and download it as PDF here" 
             rows="3" 
         />
         <button className="form-button" onClick={submitNote}>Add Note</button>

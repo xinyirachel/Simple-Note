@@ -7,7 +7,7 @@ function Header() {
                 <span className="btn-container-left">
                   <Link to="/" className="filter-btn">Notes</Link>
                   <Link to="/tools" className="filter-btn">Tools</Link>
-                  <Link to="/about" className="filter-btn">About</Link>
+                  <Link to="/about" className="filter-btn">About</Link>                  
                 </span>
                 <h1 className="title">Simple Note</h1>
               </nav>

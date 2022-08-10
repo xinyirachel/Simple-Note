@@ -35,11 +35,11 @@ a {
 
 .section-center2 {
   padding-top: 50px;
-  width: 90vw;
+  width: 65vw;
   margin: 0 auto;
   max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem 2rem;
   justify-items: center;
 
@@ -73,7 +73,7 @@ a {
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
+  width: 300px;
   margin: 16px;
   float: left;
 }

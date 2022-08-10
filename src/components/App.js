@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
+// import Weatherpage from "./Utils/Weatherpage";
 
 
 
@@ -51,6 +52,7 @@ function App() {
       })}
       </div>
       <Footer />
+      {/* <Weatherpage /> */}
     </div>
   );
 }
