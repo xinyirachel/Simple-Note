@@ -33,6 +33,18 @@ a {
 
 }
 
+.section-center2 {
+  padding-top: 50px;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 2rem;
+  justify-items: center;
+
+}
+
 .grid1x2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -215,3 +227,5 @@ footer p {
   background: white;
   border: tan;
 }
+
+

@@ -9,7 +9,7 @@
 
 ### About this app
 
-A note-taking app similar to Google Keep. It created in React.js using React Hooks, state, props, and array mapping. 
+A note-taking app similar to Google Keep. It created in React.js using diff React Hooks, state, props, and array mapping. 
 
 You can input text in the form and post an note by clicking "add" button, and delete a note by clicking "delete" on the note you post.
 
