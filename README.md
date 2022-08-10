@@ -19,6 +19,9 @@ CSS
 JavaScript
 React
 Material UI
+Route
+Formspree
+React to PDF
 
 ### Future Development
 Local storage for the note you take

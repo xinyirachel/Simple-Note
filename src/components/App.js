@@ -7,9 +7,11 @@ import CreateArea from "./CreateArea";
 
 
 
+
 function App() {
 
   const[notes, setNotes] = useState([]);
+ 
 
   function addNote(newNote){
     setNotes(prevNotes => {
@@ -29,9 +31,11 @@ function App() {
   return (
     <div>
       <Header />
+
       <CreateArea 
       onAdd={addNote}
       />
+      <div>
       {notes.map((noteItem,index) => 
       {
           return (
@@ -45,7 +49,7 @@ function App() {
           );
 
       })}
-      
+      </div>
       <Footer />
     </div>
   );
