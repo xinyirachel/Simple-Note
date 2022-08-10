@@ -14,7 +14,7 @@ const ref = React.createRef();
 
 
     return (
-        <div className="note">
+        <div className="card">
             <h1>{props.title}</h1>
             <p ref={ref}>{props.content}</p>
             <Pdf targetRef={ref} filename="my-notes.pdf">
