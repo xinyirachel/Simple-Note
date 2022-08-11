@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from "./Header";
-import Footer from "./Footer";  
+import Header from "./Header"; 
 import Clock from './Utils/Clock';
 import Noise from './Utils/Noise';
 import Weather from "./Utils/Weather";
@@ -47,9 +46,9 @@ function Tools() {
              <p>ANOTHER UTIL COMING SOON</p>
              <button>click</button>
             </div>
-                    
+                  
         </div>
-        <Footer />  
+        
     </div>
   )
 }

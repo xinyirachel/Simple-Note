@@ -1,5 +1,4 @@
 import Header from './Header'
-import Footer from "./Footer"; 
 const NotFound = () => {
   return (
     <div>
@@ -11,7 +10,7 @@ const NotFound = () => {
       </h2>
       <div>Try our links on navigation bar above instead XD</div>
       </div>
-      <Footer />
+      
     </div>
   )
 }

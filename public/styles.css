@@ -57,13 +57,11 @@ a {
 .grid1x1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   height: 100%
 }
-
-
 
 
 /* note and tools area */
@@ -121,7 +119,6 @@ a {
   border: none;
   padding: 4px;
   outline: none;
-  font-size: 1.2em;
   font-family: inherit;
   resize: none;
 }
@@ -170,7 +167,6 @@ a {
 .filter-btn {
   background: transparent;
   border-color: transparent;
-  font-size: 1rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
@@ -196,24 +192,22 @@ footer p {
 }
 
 /*contact dev*/
-.grid1x2 input[type='email'] {
+.grid1x1 input[type='email'] {
   border: 0;
   border-bottom: 1px solid tan;
   width: 100%;
   padding: 3px;
-  font-size: 16px;
 }
 
-.grid1x2 textarea {
+.grid1x1 textarea {
   border: 0;
   border-bottom: 1px solid tan;
   height: 200px;
   width: 100%;
   padding: 3px;
-  font-size: 16px;
 }
 
-.grid1x2 button {
+.grid1x1 button {
   color: white;
   background: tan;
   border: transparent;
@@ -222,10 +216,34 @@ footer p {
   cursor: pointer;
 }
 
-.grid1x2 button:hover {
+.grid1x1 button:hover {
   color: tan;
   background: white;
   border: tan;
 }
 
 
+/* responsiveness */
+
+@media (max-width: 500px) {
+  .grid1x1 {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  .grid1x2 {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .btn-container-left {
+    justify-content: center;
+
+  }
+
+  .section-center2 {
+    grid-template-columns: repeat(1, 1fr);
+
+  
+  }
+
+}
