@@ -22,6 +22,7 @@ Material UI
 Route
 Formspree
 React to PDF
+OpenWeatherMap API
 
 ### Future Development
 Local storage for the note you take
