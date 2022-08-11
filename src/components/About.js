@@ -31,6 +31,7 @@ function About() {
                     <li>Checking current weather around the world though OpenWeather API</li>
                     <li>Checking time</li>
                     <li>Search anything on Google</li>
+                    <li>Playing white noise when you need to focus</li>
                     <li>and...tell me what feature you like me to add in the app thought the following form  :D</li>
                 </ul>
             </div>
