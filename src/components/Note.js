@@ -18,7 +18,7 @@ const ref = React.createRef();
             <h1>{props.title}</h1>
             <p ref={ref}>{props.content}</p>
             <Pdf targetRef={ref} filename="my-notes.pdf">
-           {({ toPdf }) => <button onClick={toPdf}>Pdf</button>}
+           {({ toPdf }) => <button onClick={toPdf}>Download as pdf</button>}
             </Pdf>
             <button onClick={handleClick}><ClearIcon /></button>
         </div>
