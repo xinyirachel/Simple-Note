@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Header from "./Header";
-import Footer from "./Footer";
+import Year from "./Year";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 
@@ -51,7 +51,7 @@ function App() {
 
       })}
       </div>
-      <Footer />
+      <Year />
     </div>
   );
 }

@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: Monospace;
+  font-family: system-ui;
 }
 
 body {
@@ -63,15 +63,24 @@ a {
   height: 100%
 }
 
+.search {
+  width: 70%;
+  border: 2px solid tan;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+}
 
 /* note and tools area */
+
 
 .card {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 300px;
+  width: 90%;
   margin: 16px;
   float: left;
 }
@@ -104,7 +113,7 @@ a {
 
 .form {
   position: relative;
-  width: 480px;
+  width: 60%;
   height: 280px;
   margin: 30px auto 20px auto;
   background: #fff;
@@ -119,7 +128,6 @@ a {
   border: none;
   padding: 4px;
   outline: none;
-  font-family: inherit;
   resize: none;
 }
 
@@ -145,22 +153,22 @@ a {
 .header {
   background-color: tan;
   margin: auto -16px;
-  padding: 16px 32px;
+  padding: 16px 16px;
   box-shadow: 0 0 10px 0 grey;
 }
 
 
 .title {
   color: white;
-  font-family: "Monaco", Monospace;
   font-weight: 200;
   text-align: center;
+  font-size: 3em;
 }
 
-.btn-container-left {
+.btn-container{
   margin-bottom: 1rem;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   color: white;
 }
 
@@ -174,6 +182,7 @@ a {
   color: white;
   cursor: pointer;
   border-radius: 0.25rem;
+  font-size: 1.5em;
 }
 
 /* Footer */
@@ -235,15 +244,9 @@ footer p {
 
   }
 
-  .btn-container-left {
-    justify-content: center;
-
-  }
-
   .section-center2 {
     grid-template-columns: repeat(1, 1fr);
-
-  
   }
+
 
 }

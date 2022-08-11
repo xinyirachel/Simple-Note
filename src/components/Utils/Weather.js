@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import SearchIcon from '@mui/icons-material/Search';
 
 
 export default function App() {
@@ -43,7 +44,7 @@ export default function App() {
             <input
               type="text"
               onChange={(e) => setCity(e.target.value)}
-              
+              className="search"
               placeholder="e.g Melbourne, AU"
             />
             <button
@@ -51,7 +52,7 @@ export default function App() {
               onClick={(e) => getCurrentWeather(e)}
               type="submit"
             >
-              Check
+              <SearchIcon/>
             </button>
           </form>
         </div>

@@ -20,13 +20,13 @@ function About() {
         <Header />
         <div className="grid1x1" style={{color: "DimGrey"}}>
             <div className="section-center">
-                <h2>A Minimalist Note</h2>
+                <h2>A Note Taking App</h2>
                     <div>
                     Simple Note is a simplistic application that allows notes to be added and deleted, as well as printed. The app also include some utilities for note-taking on Tools page.
                     Enjoy and welcome to send me any question below. Simple Note is simple but powerful...at least will be powerful oneday lol. I am going to polish it forever. Current features are:
                     </div>
                 <ul>
-                    <li>Note taking.</li>
+                    <li>Note taking</li>
                     <li>Convert your one piece of note as PDF</li>
                     <li>Checking current weather around the world though OpenWeather API</li>
                     <li>Checking time</li>
@@ -34,9 +34,9 @@ function About() {
                     <li>and...tell me what feature you like me to add in the app thought the following form  :D</li>
                 </ul>
             </div>
-            <div>
+            <div className="form">
                 
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit} >
                         <label htmlFor="email">
                             Your Email Address
                         </label>
