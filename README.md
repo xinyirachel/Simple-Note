@@ -23,6 +23,7 @@ Route
 Formspree
 React to PDF
 OpenWeatherMap API
+Axios
 
 ### Future Development
 Local storage for the note you take
