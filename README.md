@@ -32,21 +32,22 @@ The app will looks diffently on smaller screen.
 ![res1](/docs/res1.png)
 
 ### **Tech Stack**
-HTML
-CSS
-JavaScript
-React
-Material UI
-Route
-Formspree
-React to PDF
-OpenWeatherMap API
-Axios
+- HTML
+- CSS
+- JavaScript
+- React
+- Material UI
+- Route
+- Formspree
+- React to PDF
+- OpenWeatherMap API
+- Axios
 
 ### **Future Development**
-Local storage for the note you take (I will definitely do it!!)
-Night Mode (and other colorful themes to choose? )
-MORE utilities under Tools page (I might add a srach bar for searching tools)
+- Local storage for the note you take (I will definitely do it!!)
+- Night Mode (and other colorful themes to choose? )
+- Pause button for white noise player
+- MORE utilities under Tools page (I might add a srach bar for searching tools)
 
 
 
