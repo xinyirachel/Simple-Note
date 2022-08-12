@@ -11,7 +11,7 @@
 
 Simple Note is a simplistic application created in React.js. The app allows notes to be posted and deleted, as well as downloaded as PDF document. The app also include some utilities for note-taking on Tools page. Enjoy and welcome to send me any question below. Simple Note is simple but powerful...at least will be powerful oneday lol. I am going to polish it forever. The original idea is to create a note-taking app similar to Google Keep. It created in React.js using diff React Hooks, state, props, and array mapping, and the . But I want to add more usefull features later and I want to style it differently.  
 
-### **Features**
+## **Features**
 ### Note taking (Click "Add Note" to post it)
 ![notetaking](/docs/notetaking.png)
 ### Convert your one piece of note as PDF
@@ -31,7 +31,7 @@ The app will looks diffently on smaller screen.
 ![res1](/docs/res1.png)
 ![res1](/docs/res1.png)
 
-### **Tech Stack**
+## **Tech Stack**
 - HTML
 - CSS
 - JavaScript
@@ -43,7 +43,7 @@ The app will looks diffently on smaller screen.
 - OpenWeatherMap API
 - Axios
 
-### **Future Development**
+## **Future Development**
 - Local storage for the note you take (I will definitely do it!!)
 - Night Mode (and other colorful themes to choose? )
 - Pause button for white noise player
