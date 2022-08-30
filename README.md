@@ -29,7 +29,7 @@ Simple Note is a simplistic application created in React.js. The app allows note
 ### Responsiveness
 The app will looks diffently on smaller screen.
 ![res1](/docs/res1.png)
-![res1](/docs/res1.png)
+![res1](/docs/res2.png)
 
 ## **Tech Stack**
 - HTML
