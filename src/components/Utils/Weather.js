@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import SearchIcon from '@mui/icons-material/Search';
-
+import SearchIcon from "@mui/icons-material/Search";
 
 export default function App() {
   const [city, setCity] = useState("");
@@ -10,7 +9,6 @@ export default function App() {
 
   const apiKey = "452551f2f47c0a064d9bb0322b3b470c";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
- 
 
   async function getCurrentWeather(e) {
     e.preventDefault();
@@ -47,12 +45,8 @@ export default function App() {
               className="search"
               placeholder="e.g Melbourne, AU"
             />
-            <button
-              
-              onClick={(e) => getCurrentWeather(e)}
-              type="submit"
-            >
-              <SearchIcon/>
+            <button onClick={(e) => getCurrentWeather(e)} type="submit">
+              <SearchIcon />
             </button>
           </form>
         </div>
