@@ -6,6 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import CloudIcon from "@mui/icons-material/Cloud";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import GoogleIcon from "@mui/icons-material/Google";
+import Quotes from "./Utils/Quote";
 
 function Tools() {
   return (
@@ -46,6 +47,9 @@ function Tools() {
               <SearchIcon />
             </button>
           </form>
+        </div>
+        <div className="card">
+          <Quotes />
         </div>
       </div>
     </div>
