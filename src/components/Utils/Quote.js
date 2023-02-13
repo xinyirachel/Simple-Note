@@ -17,7 +17,6 @@ class Quotes extends React.Component {
     return(
       <div>
         <h1>A random quote<ArticleIcon/></h1>
-        <p>You will get a motivation quote from Github Zen every time you open this app.</p>
         <p>"{this.state.quote}"</p>
       </div>
     )
